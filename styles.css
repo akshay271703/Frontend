@@ -1,0 +1,75 @@
+#test{
+    border: 5px solid red;
+}
+#test2{
+    border: 5px solid blue;
+}
+body{
+    font-family: 'Piazzolla', serif;
+}
+.transparent{
+    background: transparent;
+}
+.expand{
+    padding: 10px 30px;
+}
+.btnPrimary{
+    background: transparent;
+    border: 1px solid #c19b76;
+    color: #c19b76;
+}
+.btnSecondary{
+    background: #c19b76;
+    border: none;
+    color: white;
+}
+
+.btnThird{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.btnRounded{
+    border-radius: 10px;
+}
+.bigButton{
+    padding: 15px 40px;
+}
+.crossSectionText{
+    line-height: 2.4rem;
+}
+.crossSectionText p{
+    font-size: 20px;
+}
+.crossSectionText h2{
+    font-size: 50px;
+}
+.cardContents h2{
+    font-size: 30px;
+}
+.cardContents h3{
+    font-size: 50px;
+}
+.user{
+    padding: 10px 30px;
+}
+.user img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bgPrimary{
+    background-color: #c19b76;
+    color: white;
+}
+.stretch input{
+    width: 100%;
+    padding: 10px 40px;
+}
+#footer{
+    background-color: black;
+    color: whitesmoke;
+}
+#footer h2{
+    text-align: center;
+}
