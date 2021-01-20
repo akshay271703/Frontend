@@ -1,0 +1,150 @@
+.sectionPromotion{
+    background-color: transparent;
+    color: white;
+}
+body{
+    font-family: 'Chilanka', cursive;
+}
+.sectionPromotion a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sectionPromotion a:hover{
+    color: orangered;
+    opacity: 0.9;
+}
+.carousel-item img{
+    height: 95vh;
+    width: 100%;
+}
+.carouselContainer img{
+    position: relative;
+    opacity: 0.8;
+}
+.carouselContainer img::before{
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+}
+
+#background1{
+    background: url('https://source.unsplash.com/164_6wVEHfI')no-repeat center center/cover;
+    height: 100vh;
+    width: 100wh;
+    position: relative;
+}
+
+#background2{
+    background: url('https://source.unsplash.com/N10auyEVst8')no-repeat center center/cover;
+    height: 100vh;
+    width: 100wh;
+    position: relative;
+}
+
+
+#background3{
+    background: url('https://source.unsplash.com/R2aodqJn3b8')no-repeat center center/cover;
+    height: 100vh;
+    width: 100wh;
+    position: relative;
+}
+#background4{
+    background: url('https://source.unsplash.com/lxKZE0b54KI')no-repeat center center/cover;
+    height: 60vh;
+    position: relative;
+}
+.customBackground::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+}
+.expand{
+    padding: 15px 40px;
+}
+.transparent{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.transparent:hover{
+    border: 1px solid orangered;
+    color: orangered;
+}
+.carousel-caption h5{
+    font-size: 30px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+#offerShowcase{
+    background: url('https://source.unsplash.com/_7LbC5J-jw4')no-repeat center center/cover;
+    height: 70vh;
+    position: relative;
+    color: white;
+}
+#offerShowcase::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+.offerContent *{
+    z-index: 1001;
+}
+.test{
+    border: 4px solid red;
+}
+.offerContent{
+    height: 70vh;
+}
+#featuredProducts img:hover{
+    -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+}
+.transparentWhite{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+.transparentWhite:hover{
+    color: orangered;
+    border: 1px solid orangered;
+    opacity: 0.9;
+}
+.mediaSize{
+    width: 4rem;
+    height: 4rem;
+}
+#footer{
+    background-color: #1f1e1e;
+    color: white;
+}
+#footer hr{
+    border-top: 1px solid gray;
+}
+#footer input{
+    width: 80%;
+    background-color: #272626;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+}
+.categoryItem *{
+    z-index: 10000;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+#expanded .Card:nth-child(odd){
+    background-color: rgb(245, 245, 245);
+}
